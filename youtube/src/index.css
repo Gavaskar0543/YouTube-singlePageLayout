@@ -27,14 +27,14 @@
     grid-area:h;
 }
 .Sidebar{
-    position: sticky;
+    position: fixed;
+    top:10vh;
+    width:10vw;
     height: 90vh;
-   
-    top:63px;
-    bottom: 0px;
     grid-area: sb;
 }
 .MainContent{
     z-index: -1000;
+    margin-left:-10vw;
     grid-area: m;
 }
