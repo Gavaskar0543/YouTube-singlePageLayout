@@ -1,40 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
-    font-size: 1em;
-   
-}
-.layout{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-   grid-template-rows: 10vh 100vh;
-    grid-template-areas: 
-    "h h h h h "
-    "sb m m m m";
-   
-}
-.layout div{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    border:1px solid;
-}
-.Navbar{
-   position: sticky;
-   z-index: 1000;
-   top:0;
-    grid-area:h;
-}
-.Sidebar{
-    position: fixed;
-    top:10vh;
-    width:10vw;
-    height: 90vh;
-    grid-area: sb;
-}
-.MainContent{
-    z-index: -1000;
-    margin-left:-10vw;
-    grid-area: m;
+    font-family: 'robot';
+    background-color: #24292f;
+    color:white;
 }
