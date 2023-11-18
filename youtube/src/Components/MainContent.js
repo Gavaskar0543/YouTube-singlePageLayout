@@ -1,13 +1,13 @@
 import React from 'react';
 import { Avatar, Box, Text } from '@primer/react';
 import styled from 'styled-components';
-import SubNavList from './SubNavList';
+
 export default function MainContent({ video }) {
   const { title, channelName, thumbnail, channelLogo,viewCount } = video;
 
   return (
     <>
-    <SubNav/>
+  
     <MainDiv>
     < Box className='ThumDiv'
       p={3}
