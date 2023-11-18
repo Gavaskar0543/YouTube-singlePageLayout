@@ -22,7 +22,7 @@ export default function Sidebar() {
         <HomeIcon/>
         </Box>
         <Box>
-          <Text>Home</Text>
+          <Text>Shorts</Text>
         
       </Box>
 
@@ -33,7 +33,7 @@ export default function Sidebar() {
         <HomeIcon/>
         </Box>
         <Box>
-          <Text>Home</Text>
+          <Text>Subscripiton</Text>
         
       </Box>
 
@@ -44,7 +44,7 @@ export default function Sidebar() {
         <HomeIcon/>
         </Box>
         <Box>
-          <Text>Home</Text>
+          <Text>You</Text>
         
       </Box>
 
