@@ -15,7 +15,7 @@ export const youtubeData = [
     },
     {
         title: 'The Red Planet Revealed: Secrets of Mars Unearthed',
-        thumbnail: 'https://images.unsplash.com/photo-1637947582297-24ccbef1bd19?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHNwYWNlc2hpcHxlbnwwfHwwfHx8MA%3D%3D',
+        thumbnail: 'https://images.unsplash.com/photo-1559657693-e816ff3bd9af?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3BhY2UlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww',
         channelLogo: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHVzZXJ8ZW58MHx8MHx8fDA%3D',
         viewCount: '2,345,678 views',
         channelName: 'MarsExplorers'

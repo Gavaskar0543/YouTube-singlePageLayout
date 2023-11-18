@@ -5,10 +5,11 @@ export default function MainContent({ video }) {
   const { title, channelName, thumbnail, channelLogo,viewCount } = video;
 
   return (
-    <Box
+    <MainDiv>
+    < Box className='ThumDiv'
       p={3}
       borderWidth={1}
-      sx={{border:1,borderStyle:'solid',width:'30vw'}}
+      sx={{width:'30vw'}}
       borderColor="border.color"
     >
       {/* Video Thumbnail */}
@@ -43,13 +44,32 @@ export default function MainContent({ video }) {
         </Box>
       </Box>
     </Box>
+    </MainDiv>
   );
 }
+
+
+const MainDiv = styled.div`
+@media screen and (max-width:786px){
+  .ThumDiv{
+    
+    width:auto;
+  }
+ 
+}
+`
+
 
 const ThumbNail = styled.div`
 
 img{
   border-radius:10px;
+}
+@media screen and (max-width:786px){
+ 
+  .image{
+    width:90%;
+  }
 }
 
 `

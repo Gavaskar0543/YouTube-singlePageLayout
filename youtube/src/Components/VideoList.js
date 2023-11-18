@@ -15,5 +15,13 @@ export default function VideoList() {
 }
 
 const VideoDiv = styled.div`
+display:grid;
+grid-template-columns: repeat(3, auto);
+margin-left:-3%;
 
+@media screen and (max-width:786px){
+    grid-template-columns: 1fr ;
+    margin-left:3%;
+    justify-items: center;
+}
 `

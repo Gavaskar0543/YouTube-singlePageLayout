@@ -76,7 +76,7 @@ const Navbar = () => {
 const MainDiv = Styled.div`
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 786px) {
   .HideElement {
     display: none;
   }
