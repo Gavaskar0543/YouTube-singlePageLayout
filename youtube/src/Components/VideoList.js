@@ -28,4 +28,9 @@ margin-left:-3%;
     margin-left:3%;
     justify-items: center;
 }
+@media screen and (min-width: 790px) and (max-width: 1180px) {
+  grid-template-columns: 1fr 1fr;
+  margin-left: 3%;
+}
+
 `

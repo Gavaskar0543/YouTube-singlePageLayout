@@ -12,7 +12,7 @@ export default function SubNavList() {
   <Label >Computer Science</Label>
   <Label >Coding Tutorials</Label>
   <Label >Console Games</Label>
-  <Label >Games Gosling Speech</Label>
+  <Label >James Gosling Speech</Label>
   <Label >Google Interview Questios</Label>
   <Label >Binary Search</Label>
   <Label outline>Linear Search Algorithm</Label>

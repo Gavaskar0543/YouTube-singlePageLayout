@@ -21,8 +21,13 @@ const Navbar = () => {
       <Box className='HideElement'>
         <ThreeBarsIcon />
       </Box>
-      <Box sx={{padding:'2px'}}>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ZlVg6uPUceEu7ezojYV7TsmLJMmiQ23HWTsrxwq3CyWHdbnXjphv7c5phinQA5TfjPk&usqp=CAU" width={50} alt="youtube-logo"/>
+      <Box sx={{paddingLeft:'4px',display:'flex',alignItems:'center',justifyContent:'center'}}>
+        <Box>
+        <img src="https://cdn-icons-png.flaticon.com/256/1384/1384060.png" width={25} alt="youtube-logo"/>
+        </Box>
+        <Box>
+         <Text className='title' >YouTube</Text>
+         </Box>
       </Box>
     </Header.Item>
     <Header.Item>
@@ -64,7 +69,13 @@ const Navbar = () => {
 };
 
 const MainDiv = Styled.div`
+background:white;
 
+.title{
+  font-size:1rem;
+  font-weight:700;
+  
+}
 
 @media screen and (max-width: 786px) {
   .HideElement {
