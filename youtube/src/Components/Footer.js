@@ -1,6 +1,9 @@
 import React from 'react'
 import { ActionList,Box,Text } from '@primer/react';
 import { HomeIcon } from '@primer/octicons-react';
+import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
+import TheatersIcon from '@mui/icons-material/Theaters';
+import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import styled from 'styled-components';
 export default function Footer() {
   return (
@@ -20,10 +23,10 @@ export default function Footer() {
     <ActionList.Item sx={{display:'flex',flexDirection:'column',justifyContent:'center',}}>
       
         <Box mb={1}>
-        <HomeIcon/>
+        <TheatersIcon/>
         </Box>
         <Box>
-          <Text>Home</Text>
+          <Text>Shorts</Text>
         
       </Box>
 
@@ -31,10 +34,10 @@ export default function Footer() {
     <ActionList.Item sx={{display:'flex',flexDirection:'column',justifyContent:'center',}}>
       
         <Box mb={1}>
-        <HomeIcon/>
+        <SubscriptionsIcon/>
         </Box>
         <Box>
-          <Text>Home</Text>
+          <Text>Subscripiton</Text>
         
       </Box>
 
@@ -42,10 +45,10 @@ export default function Footer() {
     <ActionList.Item sx={{display:'flex',flexDirection:'column',justifyContent:'center',}}>
       
         <Box mb={1}>
-        <HomeIcon/>
+        <VideoLibraryIcon/>
         </Box>
         <Box>
-          <Text>Home</Text>
+          <Text>Library</Text>
         
       </Box>
 
@@ -59,6 +62,7 @@ const FooterDiv = styled.div`
 position: fixed;
   bottom: 0;
   width: 100%;
+  background-color:white;
 @media screen and (min-width: 480px) {
   .HideElement {
     display: none;

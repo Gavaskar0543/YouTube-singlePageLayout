@@ -1,34 +1,24 @@
 
 import React ,{useState}from 'react';
 import { Header, Text, TextInput, Button, Avatar, Flex, Box } from '@primer/react';
-import { SearchIcon ,ThreeBarsIcon,BellIcon ,VideoIcon ,CrossReferenceIcon, TrashIcon } from '@primer/octicons-react';
+import { SearchIcon ,ThreeBarsIcon,BellIcon } from '@primer/octicons-react';
 import {FaMicrophone} from 'react-icons/fa';
+import VideoCallIcon from '@mui/icons-material/VideoCall';
 
 import Styled from 'styled-components'
-import SubNav from './SubNav';
 const Navbar = () => {
-  const[burgerStatus,setBurgerStatus]=useState(false);
-  const handleMenu = () =>{
-    window.alert('menu')
-  }
+ 
+  
   return (
     <MainDiv>
 
-    <Header full sx={{display:'flex',justifyContent:'space-between'}}>
-    <BurgerNav show={burgerStatus}>
-      <CloseWraper >
-        <CustomClose   onClick={()=>setBurgerStatus(false)}>
-       <ThreeBarsIcon  />
-       </CustomClose>
-      </CloseWraper>
+    <Header full sx={{display:'flex',justifyContent:'space-between',backgroundColor:'black',color:'white'}}>
+   
    
     
-      <li><a href="#">Used Inventory</a></li>
-      <li><a href="#">Trade-in</a></li>
-      <li><a href="#">Cybertruck</a></li>
-     </BurgerNav>
+      
     <Header.Item sx={{width:'10vw',display:'flex',justifyContent:'space-around'}}>
-      <Box className='HideElement' onClick={()=>setBurgerStatus(true)}>
+      <Box className='HideElement'>
         <ThreeBarsIcon />
       </Box>
       <Box sx={{padding:'2px'}}>
@@ -46,7 +36,7 @@ const Navbar = () => {
      
     <Header.Item sx={{ width:'10vw',display:'flex',justifyContent:'space-between'}}>
     <Box  className='HideElement'>
-    <VideoIcon />
+    <VideoCallIcon />
       </Box>
       <Box  className='HideElement'>
       <BellIcon/>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { TextInput } from '@primer/react';
 import { SearchIcon } from '@primer/octicons-react';
-export default function SubNav() {
+export default function SubNavList() {
   return (
     <SubNav aria-label="Main">
   <SubNav.Links>

@@ -11,6 +11,7 @@ function App() {
       <Navbar label="Header" height={64} />
     </PageLayout.Header>
     <PageLayout.Content>
+      
       < VideoList
  label="Content" height={240} />
     </PageLayout.Content>
